@@ -1,5 +1,4 @@
 import streamlit  as st
-from fastapi.dependencies.utils import multipart_incorrect_install_error
 from prediction_helper import predict
 
 st.title('lauki finance: Credit risk modeling')
